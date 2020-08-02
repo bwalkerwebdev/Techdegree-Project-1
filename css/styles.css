@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/DetroitNight-min.jpg') center;
+  background: url('../images/DetroitNight-min.jpg') center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -92,12 +92,18 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  width: 33.3%;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+#resume {
+  width: 500px;
+}
+#contact {
+  width: 500px;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -153,13 +159,13 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(../images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
