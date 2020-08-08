@@ -90,9 +90,8 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  width: 33.3%;
+  margin: 20px;
+  padding: 30px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -186,12 +185,14 @@ iframe.resume {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
+      flex-flow: row;
       max-width: 1200px;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      margin: 0 auto;
+      margin: auto;
+  }
+
+  .card {
+    flex: 33%;
   }
 
   header {
