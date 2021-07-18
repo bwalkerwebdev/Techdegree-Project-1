@@ -11,7 +11,7 @@
 
 > A simple profile page with links to social media sites. CSS elements include a transform effect on hover for the user Image and a flexbox, responsive layout. The site was also enhanced with an experience page, as well as a contact page with a functioning PHP form. Project one of Treehouse Techdegree.
 
-### 🏠 [Homepage](https://bwalkerwebdev.github.io/Techdegree-Project-1/)
+### 🏠 [Homepage](https://github.com/bwalkerwebdev/Techdegree-Project-1/)
 
 ### ✨ [Demo](https://bwalkerwebdev.github.io/Techdegree-Project-1/)
 
